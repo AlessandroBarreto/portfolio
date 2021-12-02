@@ -6,8 +6,10 @@ html {
   font-family: "JetBrains Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
