@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Web from "./web/web";
-import Mobile from "./mobile/mobile";
-import "../styles/header.scss";
+import Web from "./web";
+import Mobile from "./mobile";
+import "../../styles/header.scss";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
