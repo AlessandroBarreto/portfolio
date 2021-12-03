@@ -1,0 +1,43 @@
+.mobile {
+  background-color: white;
+  height: calc(100vh - 30px);
+  width: 60vw;
+  position: absolute;
+  right: 0px;
+  top: -6px;
+  padding: 18px 12px;
+  display: flex;
+  flex-direction: column;
+
+  .close-icon {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+  }
+
+  .mobile-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 24px;
+
+    .mobile-option {
+      font-size: 24px;
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+
+      a {
+        display: flex;
+      }
+
+      .option-icon {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
