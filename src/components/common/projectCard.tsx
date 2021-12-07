@@ -21,10 +21,25 @@ export default function ProjectCard({ project }: projectCardProps) {
           {project.demo && (
             <a className="project-link" href={project.demo}>
               <div className="link-button">
-                <i className="fi fi-rr-Globo"></i>Demo
+                <i className="fi fi-rr-globe-alt"></i>
+                Demo
               </div>
             </a>
           )}
+          {project.github && (
+            <a className="project-link" href={project.github}>
+              <div className="link-button">
+                <i className="devicon-github-original colored"></i>
+                Github
+              </div>
+            </a>
+          )}
+        </div>
+        <p>{project.about}</p>
+        <div className="project-tags">
+          {project.tags.map((tag) => {
+            return <label className="tag">{tag}</label>;
+          })}
         </div>
       </div>
       <img src={project.img} alt="" />
