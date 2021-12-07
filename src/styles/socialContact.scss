@@ -1,0 +1,21 @@
+.social-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .social-icon {
+    padding: 6px;
+    cursor: pointer;
+    margin: 6px;
+
+    img {
+      height: 40px;
+    }
+
+    @media only screen and (max-width: 720px) {
+      img {
+        height: 32px;
+      }
+    }
+  }
+}

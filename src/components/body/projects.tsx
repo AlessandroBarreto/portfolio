@@ -1,9 +1,10 @@
-import React from 'react'
+import "../../styles/projects.scss";
 
 export default function Projects() {
-    return (
-        <div>
-            This is projects
-        </div>
-    )
+  return (
+    <div className="projects">
+      <label>Projects</label>
+      
+    </div>
+  );
 }

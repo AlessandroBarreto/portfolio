@@ -13,7 +13,7 @@ export default function Mobile({ isOpen, setIsOpen }: mobileProps) {
       </div>
       <div className="mobile-options">
         <div className="mobile-option">
-          <a href="#project">
+          <a href="#projects">
             <i className="fi fi-rr-edit-alt option-icon"></i>
             Projects
           </a>
@@ -31,7 +31,7 @@ export default function Mobile({ isOpen, setIsOpen }: mobileProps) {
           </a>
         </div>
         <div className="mobile-option">
-          <a href="">
+          <a href="contact">
             <i className="fi fi-rr-user option-icon"></i>
             Contact
           </a>
