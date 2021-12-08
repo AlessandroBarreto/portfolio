@@ -6,13 +6,11 @@ import "../../styles/projects.scss";
 export default function Projects() {
   return (
     <div className="projects">
-      <Separator/>
+      <Separator />
       <label>Projects</label>
-      <div>
-        {ProjectData.map((project) => {
-          return <ProjectCard project={project} />;
-        })}
-      </div>
+      {ProjectData.map((project) => {
+        return <ProjectCard project={project} />;
+      })}
     </div>
   );
 }
