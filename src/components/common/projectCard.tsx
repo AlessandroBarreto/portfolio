@@ -16,7 +16,7 @@ export default function ProjectCard({ project }: projectCardProps) {
   return (
     <div className="project-card">
       <div className="project-info">
-        <label>{project.title}</label>
+        <label className="project-title">{project.title}</label>
         <div className="project-links">
           {project.demo && (
             <a className="project-link" href={project.demo}>
