@@ -1,3 +1,9 @@
+import {
+  CodeOutlined,
+  Laptop,
+  WorkOutlineOutlined,
+  PermIdentityOutlined,
+} from "@mui/icons-material";
 import "../../styles/web.scss";
 
 export default function Web() {
@@ -5,25 +11,25 @@ export default function Web() {
     <div className="web">
       <div className="web-option">
         <a href="#projects">
-          <i className="fi fi-rr-edit-alt option-icon"></i>
+          <CodeOutlined />
           Projects
         </a>
       </div>
       <div className="web-option">
         <a href="#skills">
-          <i className="fi fi-rr-laptop option-icon"></i>
+          <Laptop />
           Skills
         </a>
       </div>
       <div className="web-option">
         <a href="#work">
-          <i className="fi fi-rr-briefcase option-icon"></i>
+          <WorkOutlineOutlined />
           Work
         </a>
       </div>
       <div className="web-option">
-        <a href="">
-          <i className="fi fi-rr-user option-icon"></i>
+        <a href="contact">
+          <PermIdentityOutlined />
           Contact
         </a>
       </div>
