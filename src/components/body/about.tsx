@@ -1,5 +1,5 @@
 import SocialContact from "../common/socialContact";
-import coding from "../../assets/coding.png";
+import me from "../../assets/me-cropped.jpg";
 import "../../styles/about.scss";
 
 export default function About() {
@@ -11,7 +11,7 @@ export default function About() {
           love experimenting with the web.
         </div>
         <div className="about-photo">
-          <img src={coding} alt="coding" />
+          <img src={me} alt="coding" />
         </div>
       </div>
       <div className="about-bottom">

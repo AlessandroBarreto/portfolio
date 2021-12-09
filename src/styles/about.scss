@@ -16,7 +16,9 @@
     }
     .about-photo {
       img {
-        height: 420px;
+        border-radius: 50%;
+        height: 350px;
+        margin: 10px;
       }
     }
   }
@@ -39,7 +41,7 @@
       }
       .about-photo {
         img {
-          height: 280px;
+          height: 250px;
         }
       }
     }

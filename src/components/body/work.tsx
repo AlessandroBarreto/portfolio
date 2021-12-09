@@ -1,9 +1,10 @@
-import React from 'react'
+import Separator from "../common/separator"
+import "../../styles/work.scss"
 
 export default function Work() {
     return (
-        <div>
-            This is Work
+        <div className="work">
+            <Separator/>
         </div>
     )
 }
