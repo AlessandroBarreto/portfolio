@@ -6,7 +6,7 @@ export default function SocialContact() {
     <div className="social-contact">
       {SocialData.map((item) => {
         return (
-          <a href={item.link} target="_blank">
+          <a href={item.link} target="_blank" rel="noreferrer" >
             <div className="social-icon">
               <img src={item.icon} alt="" />
             </div>

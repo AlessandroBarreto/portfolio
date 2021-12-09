@@ -2,7 +2,7 @@ import instagram from "../assets/icons/instagram.png";
 import facebook from "../assets/icons/facebook.png";
 import github from "../assets/icons/github.png";
 import linkedin from "../assets/icons/linkedin.png";
-import gmail from "../assets/icons/gmail.png";
+//import gmail from "../assets/icons/gmail.png";
 
 export const SocialData = [
   {
