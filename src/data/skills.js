@@ -37,7 +37,7 @@ export const SkillsData = [
       },
       {
         name: "Python",
-        icon: <i className="devicon-python-plain "></i>,
+        icon: <i className="devicon-python-plain colored"></i>,
       },
     ],
   },
