@@ -17,12 +17,15 @@ export default function Mobile({ isOpen, setIsOpen }: mobileProps) {
     setIsOpen(!isOpen);
   };
 
+  const openDrawer = isOpen ? "drawer" : "";
+  const openBlockDiv = isOpen ? "block-div" : "";
+
   return (
     <>
-      <div className="block-div"></div>
-      <div className="mobile">
+      <div className={openBlockDiv} onClick={handleMenu}></div>
+      <div className={"mobile " + openDrawer}>
         <div className="close-icon" onClick={handleMenu}>
-          <CancelOutlined fontSize="large" />
+          <CancelOutlined fontSize="large"  />
         </div>
         <div className="mobile-options">
           <div className="mobile-option">

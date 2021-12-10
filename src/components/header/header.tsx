@@ -8,9 +8,14 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    isOpen
-      ? (document.body.style.overflowY = "hidden")
-      : (document.body.style.overflowY = "scroll");
+    const bodyStyle = document.body.style
+    if (isOpen) {
+      bodyStyle.overflowY = "hidden";
+      bodyStyle.marginRight = "17px";
+    } else {
+      bodyStyle.overflowY = "scroll";
+      bodyStyle.marginRight = "0px";
+    }
   }, [isOpen]);
 
   return (
@@ -20,11 +25,9 @@ export default function Header() {
         <div className="web-menu">
           <Web />
         </div>
-        <div className="mobile-menu">
-          <div onClick={() => setIsOpen(!isOpen)}>
-            <MenuRoundedIcon fontSize="large" />
-          </div>
-          {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
+        <div className="mobile-menu" onClick={() => setIsOpen(!isOpen)}>
+          <MenuRoundedIcon fontSize="large" />
+          <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </div>
     </div>

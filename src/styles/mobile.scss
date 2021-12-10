@@ -6,23 +6,27 @@
   top: 0;
   background: gray;
   opacity: 0.5;
+  z-index: 2;
 }
 .mobile {
   background-color: white;
-  height: calc(100vh - 30px);
-  width: 50vw;
+  height: 101vh;
+  width: 0;
   position: fixed;
   right: 0px;
   top: -6px;
-  padding: 18px 12px;
+  //padding: 18px 12px;
   display: flex;
   flex-direction: column;
   z-index: 3;
   box-shadow: rgb(0 0 0 / 20%) 0px 8px 10px -5px,
     rgb(0 0 0 / 14%) 0px 16px 24px 2px, rgb(0 0 0 / 12%) 0px 6px 30px 5px;
-
+  overflow: hidden;
+  transition: 0.3s;
 
   .close-icon {
+    padding-top: 18px;
+    padding-right: 26px;
     display: flex;
     justify-content: flex-end;
     font-size: 24px;
@@ -35,7 +39,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    padding-top: 24px;
 
     .mobile-option {
       font-size: 24px;
@@ -54,4 +57,9 @@
       }
     }
   }
+}
+.drawer {
+  width: 250px;
+  //padding: 18px 12px;
+  transition: 0.5s;
 }
