@@ -1,9 +1,9 @@
-import "../../styles/footer.scss"
+import "../../styles/footer.scss";
 
 export default function Footer() {
-    return (
-        <div>
-            footer batata
-        </div>
-    )
+  return (
+    <div className="footer">
+      <span>Made by Alessandro Barreto</span> 👦🏻
+    </div>
+  );
 }
