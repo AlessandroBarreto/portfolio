@@ -8,7 +8,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const bodyStyle = document.body.style
+    const bodyStyle = document.body.style;
     if (isOpen) {
       bodyStyle.overflowY = "hidden";
       bodyStyle.marginRight = "17px";
@@ -25,8 +25,11 @@ export default function Header() {
         <div className="web-menu">
           <Web />
         </div>
-        <div className="mobile-menu" onClick={() => setIsOpen(!isOpen)}>
-          <MenuRoundedIcon fontSize="large" />
+        <div className="mobile-menu">
+          <MenuRoundedIcon
+            fontSize="large"
+            onClick={() => setIsOpen(!isOpen)}
+          />
           <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </div>
