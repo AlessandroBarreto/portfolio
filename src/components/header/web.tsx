@@ -28,7 +28,7 @@ export default function Web() {
         </a>
       </div>
       <div className="web-option">
-        <a href="contact">
+        <a href="#contact">
           <PermIdentityOutlined />
           Contact
         </a>

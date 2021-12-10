@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Web from "./web";
 import Mobile from "./mobile";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
@@ -6,6 +6,12 @@ import "../../styles/header.scss";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    isOpen
+      ? (document.body.style.overflowY = "hidden")
+      : (document.body.style.overflowY = "scroll");
+  }, [isOpen]);
 
   return (
     <div className="header">
