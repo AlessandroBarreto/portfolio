@@ -9,13 +9,13 @@ export default function Skills() {
       <Separator />
       <label className="section-title">Skills</label>
       <div className="skills-container">
-        {SkillsData.map((item) => {
+        {SkillsData.map((item ,i) => {
           return (
-            <div className="skills-section">
+            <div key={i} className="skills-section">
               <label className="skills-section-title">{item.type}</label>
               <div className="skills-list">
-                {item.list.map((skill) => {
-                  return <SkillCard skill={skill} />;
+                {item.list.map((skill, i) => {
+                  return <SkillCard key={i} skill={skill} />;
                 })}
               </div>
             </div>

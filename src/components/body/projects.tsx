@@ -8,8 +8,8 @@ export default function Projects() {
     <div className="projects">
       <Separator />
       <label>Projects</label>
-      {ProjectData.map((project) => {
-        return <ProjectCard project={project} />;
+      {ProjectData.map((project, i) => {
+        return <ProjectCard key={i} project={project} />;
       })}
     </div>
   );

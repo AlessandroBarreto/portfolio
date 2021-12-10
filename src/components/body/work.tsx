@@ -9,8 +9,8 @@ export default function Work() {
       <Separator />
       <label className="section-title">Work</label>
       <div className="work-list">
-        {WorkData.map((work) => {
-          return <WorkCard work={work}/>
+        {WorkData.map((work, i) => {
+          return <WorkCard key={i} work={work}/>
         })}
       </div>
     </div>
