@@ -3,8 +3,8 @@
     @keyframes particle-animation-#{$i} {
       100% {
         transform: translate3d(
-          (random(80) * 1vw),
-          (random(80) * 1vh),
+          (random(90) * 1vw),
+          (random(90) * 1vh),
           (random(100) * 1px)
         );
       }
