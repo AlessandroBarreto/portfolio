@@ -1,3 +1,4 @@
+import { LanguageOutlined, GitHub } from "@mui/icons-material";
 import "../../styles/projectCard.scss";
 
 interface projectCardProps {
@@ -21,7 +22,7 @@ export default function ProjectCard({ project }: projectCardProps) {
           {project.demo && (
             <a className="project-link" href={project.demo}>
               <div className="link-button">
-                <i className="fi fi-rr-globe-alt"></i>
+                <LanguageOutlined fontSize="small" />
                 Demo
               </div>
             </a>
@@ -29,7 +30,7 @@ export default function ProjectCard({ project }: projectCardProps) {
           {project.github && (
             <a className="project-link" href={project.github}>
               <div className="link-button">
-                <i className="devicon-github-original colored"></i>
+                <GitHub fontSize="small" />
                 Github
               </div>
             </a>
