@@ -1,5 +1,5 @@
 import SocialContact from "../common/socialContact";
-import me from "../../assets/me-cropped.jpg";
+import me from "../../assets/pictures/me-cropped.jpg";
 import "../../styles/about.scss";
 
 export default function About() {
