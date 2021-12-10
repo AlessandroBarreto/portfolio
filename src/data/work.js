@@ -10,7 +10,7 @@ export const WorkData = [
   },
   {
     company: "Sanova",
-    designation: "Sanitary and Enviromental Engineer",
+    designation: "Sanitary and Environmental Engineer",
     started: "07-01-2018",
     ended: "07-01-2020",
     companyLogo:

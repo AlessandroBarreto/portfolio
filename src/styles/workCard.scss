@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
-  word-break: break-all;
+  //word-break: break-all;
 
   img {
     height: 80px;
@@ -17,9 +17,16 @@
     flex-direction: column;
 
     .company-name {
+      font-size: 24px;
+    }
+    .work-designation {
+      color: gray;
+      font-size: 14px;
+      margin-top: 8px;
     }
     .work-dates {
       color: gray;
+      font-size: 14px;
     }
     .work-info {
       text-align: left;

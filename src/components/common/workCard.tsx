@@ -17,6 +17,9 @@ export default function WorkCard({ work }: WorkCardProps) {
       <img src={work.companyLogo} alt="" />
       <div className="work-info">
         <label className="company-name">{work.company}</label>
+        <div className="work-designation">
+          <span>{work.designation}</span>
+        </div>
         <div className="work-dates">
           <label>{work.started}</label> - <label>{work.ended}</label>
         </div>
