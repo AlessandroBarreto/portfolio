@@ -1,22 +1,13 @@
 import { useState, useEffect } from "react";
 import Web from "./web";
 import Mobile from "./mobile";
+import Drawer from "../common/drawer"
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import "../../styles/header.scss";
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    const bodyStyle = document.body.style;
-    if (isOpen) {
-      bodyStyle.overflowY = "hidden";
-      bodyStyle.marginRight = "17px";
-    } else {
-      bodyStyle.overflowY = "scroll";
-      bodyStyle.marginRight = "0px";
-    }
-  }, [isOpen]);
+  const drawerContent = <h1>batata</h1>
 
   return (
     <div className="header">
@@ -26,11 +17,7 @@ export default function Header() {
           <Web />
         </div>
         <div className="mobile-menu">
-          <MenuRoundedIcon
-            fontSize="large"
-            onClick={() => setIsOpen(!isOpen)}
-          />
-          <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />
+          <Drawer anchor="right" content={<Mobile/>} />
         </div>
       </div>
     </div>
