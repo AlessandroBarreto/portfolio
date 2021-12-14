@@ -15,8 +15,8 @@ export default function Contact() {
         </div>
         <a
           className="download"
-          download
-          href="../../assets/CV-AlessandroBarreto.pdf"
+          href="alessandro-barreto.pdf"
+          download="alessandro-barreto-curriculum"
         >
           <FileDownloadOutlinedIcon />
           Download Resume
