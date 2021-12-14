@@ -1,13 +1,9 @@
-import { useState, useEffect } from "react";
 import Web from "./web";
 import Mobile from "./mobile";
 import Drawer from "../common/drawer"
-import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import "../../styles/header.scss";
 
 export default function Header() {
-
-  const drawerContent = <h1>batata</h1>
 
   return (
     <div className="header">

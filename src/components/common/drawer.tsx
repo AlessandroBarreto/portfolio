@@ -22,7 +22,6 @@ export default function TemporaryDrawer({ anchor, content }: DrawerProps) {
       ) {
         return;
       }
-      console.log(open);
 
       setState(open);
     };

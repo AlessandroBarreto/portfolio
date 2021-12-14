@@ -1,16 +1,10 @@
 import {
-  CancelOutlined,
   CodeOutlined,
   Laptop,
   WorkOutlineOutlined,
   PermIdentityOutlined,
 } from "@mui/icons-material";
 import "../../styles/mobile.scss";
-
-interface mobileProps {
-  isOpen: boolean;
-  setIsOpen: Function;
-}
 
 export default function Mobile() {
   return (
