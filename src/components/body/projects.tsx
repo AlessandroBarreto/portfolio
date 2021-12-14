@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div className="projects">
       <Separator />
-      <label>Projects</label>
+      <label className="section-title">Projects</label>
       {ProjectData.map((project, i) => {
         return <ProjectCard key={i} project={project} />;
       })}
