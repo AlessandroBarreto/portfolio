@@ -1,20 +1,39 @@
+import sanova from "../assets/works/sanova.jpg";
+import aquarela from "../assets/works/aquarela.jpg";
+import fontes from "../assets/works/fontes.jpg";
+import aubay from "../assets/works/aubay.jpg";
+
 export const WorkData = [
   {
-    company: "Google",
-    designation: "Fronted Developer",
-    started: "02-02-2000",
+    company: "Aubay",
+    designation: "Frontend Developer",
+    started: "Dec 2021",
     ended: "Present",
-    companyLogo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
-    info: "blbaabaodoasd",
+    companyLogo: aubay,
+    info: "",
+  },
+  {
+    company: "Fontes Credit Promoter",
+    designation: "Fullstack Developer",
+    started: "May 2021",
+    ended: "Dec 2021",
+    companyLogo: fontes,
+    info: "",
+  },
+  {
+    company: "Aquarela Advanced Analytics",
+    designation: "Frontend Developer",
+    started: "jun 2020",
+    ended: "May 2021",
+    companyLogo: aquarela,
+    info: "",
   },
   {
     company: "Sanova",
     designation: "Sanitary and Environmental Engineer",
-    started: "07-01-2018",
-    ended: "07-01-2020",
-    companyLogo:
-      "https://sanova.com.br/wp-content/uploads/2019/06/logotipo-principal-sanova_com-fundo-branco-300x211.png",
-    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nulla reiciendis eveniet excepturi, dolor dolores modi deserunt placeat obcaecati quae impedit.",
+    started: "jul 2018",
+    ended: "jul 2020",
+    companyLogo: sanova,
+    info: "",
   },
 ];
