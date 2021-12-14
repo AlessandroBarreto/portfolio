@@ -40,8 +40,8 @@ export default function TemporaryDrawer({ anchor, content }: DrawerProps) {
   return (
     <div>
       <React.Fragment>
-        <IconButton>
-          <MenuRoundedIcon fontSize="large" onClick={toggleDrawer(true)} />
+        <IconButton onClick={toggleDrawer(true)}>
+          <MenuRoundedIcon fontSize="large" />
         </IconButton>
         <Drawer anchor={anchor} open={state} onClose={toggleDrawer(false)}>
           {list(anchor)}

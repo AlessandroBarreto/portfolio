@@ -20,7 +20,12 @@ export default function ProjectCard({ project }: projectCardProps) {
         <label className="project-title">{project.title}</label>
         <div className="project-links">
           {project.demo && (
-            <a className="project-link" href={project.demo} target="_blank">
+            <a
+              className="project-link"
+              href={project.demo}
+              rel="noreferrer"
+              target="_blank"
+            >
               <div className="link-button">
                 <LanguageOutlined fontSize="small" />
                 Demo
@@ -28,7 +33,12 @@ export default function ProjectCard({ project }: projectCardProps) {
             </a>
           )}
           {project.github && (
-            <a className="project-link" href={project.github} target="_blank">
+            <a
+              className="project-link"
+              href={project.github}
+              rel="noreferrer"
+              target="_blank"
+            >
               <div className="link-button">
                 <GitHub fontSize="small" />
                 Github
