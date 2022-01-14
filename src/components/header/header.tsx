@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <div className="header">
-      <div className="logo">MyFolio</div>
+      <div className="logo">DevFolio</div>
       <div className="menu">
         <div className="web-menu">
           <Web />
