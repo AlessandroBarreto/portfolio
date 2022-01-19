@@ -29,7 +29,14 @@ export const ProjectData = [
     title: "notGoogle",
     about:
       "Have you heard about Google? This doesn't look anything like it, it just uses the same API, tools and technologies... ",
-    tags: ["ReactJS", "Tailwind", "ContextAPI", "React Router", "RapidAPI"],
+    tags: [
+      "ReactJS",
+      "Tailwind",
+      "ContextAPI",
+      "React Router",
+      "RapidAPI",
+      "Debounce",
+    ],
     demo: "https://notgoogleapp.netlify.app/",
     github: "https://github.com/AlessandroBarreto/search-app",
     img: notGoogle,
