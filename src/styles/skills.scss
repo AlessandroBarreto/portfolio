@@ -6,7 +6,7 @@
   .skills-container {
     .skills-section {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       margin: 12px 0;
       .skills-section-title {
         font-size: 24px;
@@ -15,9 +15,8 @@
 
       .skills-list {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         flex-wrap: wrap;
-        max-width: 70%;
       }
     }
   }
