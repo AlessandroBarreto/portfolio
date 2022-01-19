@@ -4,10 +4,11 @@ import globo from "../assets/projects/globo.png";
 import portfolio from "../assets/projects/portfolio.png";
 import montyHall from "../assets/projects/monty_hall.png";
 import fontesPromotora from "../assets/projects/fontes_promotora.png";
+import notGoogle from "../assets/projects/notGoogle.png";
 
 export const ProjectData = [
   {
-    id: 1,
+    id: 0,
     title: "Fontes Promotora Website",
     about:
       "New Fontes Promotora Website. Containing 10 pages with routing, animation and screen responsivity for mobile and desktop. ",
@@ -22,6 +23,16 @@ export const ProjectData = [
     demo: "https://fontes-promotora.netlify.app/",
     github: "",
     img: fontesPromotora,
+  },
+  {
+    id: 1,
+    title: "notGoogle",
+    about:
+      "Have you heard about Google? This doesn't look anything like it, it just uses the same API, tools and technologies... ",
+    tags: ["ReactJS", "Tailwind", "ContextAPI", "React Router", "RapidAPI"],
+    demo: "https://notgoogleapp.netlify.app/",
+    github: "https://github.com/AlessandroBarreto/search-app",
+    img: notGoogle,
   },
   {
     id: 2,
