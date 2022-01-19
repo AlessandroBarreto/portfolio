@@ -3,12 +3,12 @@ export const SkillsData = [
     type: "Frontend",
     list: [
       {
-        name: "ReactJS",
-        icon: <i className="devicon-react-original colored"></i>,
+        name: "HTML",
+        icon: <i class="devicon-html5-plain colored"></i>,
       },
       {
-        name: "NextJS",
-        icon: <i className="devicon-nextjs-line colored"></i>,
+        name: "CSS",
+        icon: <i class="devicon-css3-plain colored"></i>,
       },
       {
         name: "Javascript",
@@ -19,12 +19,42 @@ export const SkillsData = [
         icon: <i className="devicon-typescript-plain colored"></i>,
       },
       {
+        name: "ReactJS",
+        icon: <i className="devicon-react-original colored"></i>,
+      },
+      {
+        name: "NextJS",
+        icon: <i className="devicon-nextjs-line colored"></i>,
+      },
+      {
         name: "Sass",
         icon: <i className="devicon-sass-original colored"></i>,
       },
       {
-        name: "Material UI",
+        name: "MaterialUI",
         icon: <i className="devicon-materialui-plain colored"></i>,
+      },
+      {
+        name: "Bootstrap",
+        icon: <i class="devicon-bootstrap-plain colored"></i>,
+      },
+      {
+        name: "TailwindCSS",
+        icon: <i class="devicon-tailwindcss-plain colored"></i>,
+      },
+      {
+        name: "Styled-comp",
+        icon: (
+          <img src="https://static-00.iconduck.com/assets.00/file-type-styled-icon-512x512-kmuegrph.png" />
+        ),
+      },
+      {
+        name: "Redux",
+        icon: <i class="devicon-redux-original colored"></i>,
+      },
+      {
+        name: "Jest",
+        icon: <i class="devicon-jest-plain colored"></i>,
       },
     ],
   },
@@ -32,16 +62,26 @@ export const SkillsData = [
     type: "Backend",
     list: [
       {
+        name: "Python",
+        icon: <img src="https://img.icons8.com/color/000000/python--v1.png" />,
+      },
+      {
+        name: "Selenium",
+        icon: (
+          <img src="https://img.icons8.com/wired/64/000000/selenium-test-automation.png" />
+        ),
+      },
+      {
         name: "NodeJs",
         icon: <i className="devicon-nodejs-plain colored"></i>,
       },
       {
-        name: "Python",
-        icon: <i className="devicon-python-plain colored"></i>,
-      },
-      {
         name: "Express",
         icon: <i className="devicon-express-original colored"></i>,
+      },
+      {
+        name: "GraphQL",
+        icon: <i class="devicon-graphql-plain colored"></i>,
       },
     ],
   },
