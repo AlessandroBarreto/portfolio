@@ -45,7 +45,10 @@ export const SkillsData = [
       {
         name: "Styled-comp",
         icon: (
-          <img src="https://static-00.iconduck.com/assets.00/file-type-styled-icon-512x512-kmuegrph.png" />
+          <img
+            src="https://static-00.iconduck.com/assets.00/file-type-styled-icon-512x512-kmuegrph.png"
+            alt="styled-components icon"
+          />
         ),
       },
       {
@@ -63,12 +66,20 @@ export const SkillsData = [
     list: [
       {
         name: "Python",
-        icon: <img src="https://img.icons8.com/color/000000/python--v1.png" />,
+        icon: (
+          <img
+            src="https://img.icons8.com/color/000000/python--v1.png"
+            alt="python icon"
+          />
+        ),
       },
       {
         name: "Selenium",
         icon: (
-          <img src="https://img.icons8.com/wired/64/000000/selenium-test-automation.png" />
+          <img
+            src="https://img.icons8.com/wired/64/000000/selenium-test-automation.png"
+            alt="selenium icon"
+          />
         ),
       },
       {
