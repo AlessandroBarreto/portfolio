@@ -94,6 +94,15 @@ export const SkillsData = [
         name: "GraphQL",
         icon: <i class="devicon-graphql-plain colored"></i>,
       },
+      {
+        name: "MongoDB",
+        icon: (
+          <img
+            src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/undefined/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"
+            alt="MongoDB icon"
+          />
+        ),
+      },
     ],
   },
 ];

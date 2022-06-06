@@ -2,18 +2,27 @@ import sanova from "../assets/works/sanova.jpg";
 import aquarela from "../assets/works/aquarela.jpg";
 import fontes from "../assets/works/fontes.jpg";
 import aubay from "../assets/works/aubay.jpg";
+import bmw from "../assets/works/bmw.jpg"
 
 export const WorkData = [
   {
+    company: "BMW Group",
+    designation: "Full Stack Developer",
+    started: "Jan 2022",
+    ended: "Present",
+    companyLogo: bmw,
+    info: "",
+  },
+  {
     company: "Aubay",
-    designation: "Frontend Developer",
+    designation: "Technology Consultant",
     started: "Dec 2021",
     ended: "Present",
     companyLogo: aubay,
     info: "",
   },
   {
-    company: "Fontes Credit Promoter",
+    company: "Fontes Credit Bank",
     designation: "Fullstack Developer",
     started: "May 2021",
     ended: "Dec 2021",
@@ -30,7 +39,7 @@ export const WorkData = [
   },
   {
     company: "Sanova",
-    designation: "Sanitary and Environmental Engineer",
+    designation: "Civil Engineer",
     started: "jul 2018",
     ended: "jul 2020",
     companyLogo: sanova,
