@@ -3,7 +3,6 @@ import "../../styles/projectCard.scss";
 
 interface projectCardProps {
   project: {
-    id: number;
     title: string;
     about: string;
     tags: string[];

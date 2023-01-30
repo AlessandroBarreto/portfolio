@@ -5,10 +5,26 @@ import portfolio from "../assets/projects/portfolio.png";
 import montyHall from "../assets/projects/monty_hall.png";
 import fontesPromotora from "../assets/projects/fontes_promotora.png";
 import notGoogle from "../assets/projects/notGoogle.png";
+import admin_template from "../assets/projects/admin_template.png";
 
 export const ProjectData = [
   {
-    id: 0,
+    title: "Admin Template",
+    about:
+      "NextJS Admin template with login and autentication. Working with state management, firebase, custom hooks, tailwind and dark mode.",
+    tags: [
+      "NextJS",
+      "Tailwind",
+      "TypeScript",
+      "Context API",
+      "Autentication",
+      "Firebase",
+    ],
+    demo: "https://admin-template1.netlify.app/autentication",
+    github: "https://github.com/AlessandroBarreto/admin-template",
+    img: admin_template,
+  },
+  {
     title: "Fontes Promotora Website",
     about:
       "New Fontes Promotora Website. Containing 10 pages with routing, animation and screen responsivity for mobile and desktop. ",
@@ -25,7 +41,6 @@ export const ProjectData = [
     img: fontesPromotora,
   },
   {
-    id: 1,
     title: "notGoogle",
     about:
       "Have you heard about Google? This doesn't look anything like it, it just uses the same API, tools and technologies... ",
@@ -42,7 +57,6 @@ export const ProjectData = [
     img: notGoogle,
   },
   {
-    id: 2,
     title: "Monty Hall Challenge",
     about:
       "Here’s the game: Do you stick with door A (original guess) or switch to the unopened door? Does it matter?",
@@ -52,7 +66,6 @@ export const ProjectData = [
     img: montyHall,
   },
   {
-    id: 3,
     title: "My Personal Portfolio",
     about:
       "Personal portfolio created using React, TypeScript and best practices.",
@@ -62,7 +75,6 @@ export const ProjectData = [
     img: portfolio,
   },
   {
-    id: 4,
     title: "Globo Profile Page",
     about:
       "Profile page to Globo website,containing blog, search and a second page to add insights.   ",
@@ -72,7 +84,6 @@ export const ProjectData = [
     img: globo,
   },
   {
-    id: 5,
     title: "Aquarela News Page",
     about:
       "News section page to the main Aquarela Advanced Analytics website, with grid and responsivity. ",
@@ -82,7 +93,6 @@ export const ProjectData = [
     img: aquarela,
   },
   {
-    id: 6,
     title: "Pokedex",
     about:
       "My first frontend project using vanilla javascript, DOM manipulation and PokéAPI. ",

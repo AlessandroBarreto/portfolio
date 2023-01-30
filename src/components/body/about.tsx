@@ -8,7 +8,7 @@ export default function About() {
       <div className="about-top">
         <div className="about-info">
           Hello World 👋, I am <br /> <span>Alessandro Barreto</span>. <br />{" "}
-          Brazilian web developer and technology enthusiast
+          Software developer and technology enthusiast
         </div>
         <div className="about-photo">
           <img src={me} alt="coding" />
