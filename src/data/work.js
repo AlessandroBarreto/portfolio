@@ -2,13 +2,13 @@ import sanova from "../assets/works/sanova.jpg";
 import aquarela from "../assets/works/aquarela.jpg";
 import fontes from "../assets/works/fontes.jpg";
 import aubay from "../assets/works/aubay.jpg";
-import bmw from "../assets/works/bmw.jpg"
+import bmw from "../assets/works/bmw.jpg";
 
 export const WorkData = [
   {
     company: "BMW Group",
     designation: "Full Stack Developer",
-    started: "Jan 2022",
+    started: "Dec 2021",
     ended: "Present",
     companyLogo: bmw,
     info: "",
