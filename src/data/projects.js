@@ -18,7 +18,7 @@ export const ProjectData = [
       "TypeScript",
       "Context API",
       "Autentication",
-      "Firebase",
+      "Google Firebase",
     ],
     demo: "https://admin-template1.netlify.app/autentication",
     github: "https://github.com/AlessandroBarreto/admin-template",
