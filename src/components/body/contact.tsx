@@ -16,7 +16,7 @@ export default function Contact() {
         <a
           className="download"
           href="alessandrobarreto.pdf"
-          download="alessandro-barreto-curriculum"
+          download="alessandro-barreto"
         >
           <FileDownloadOutlinedIcon />
           Download Resume
