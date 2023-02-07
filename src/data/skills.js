@@ -103,6 +103,10 @@ export const SkillsData = [
           />
         ),
       },
+      {
+        name: "Docker",
+        icon: <i class="devicon-docker-plain colored"></i>,
+      },
     ],
   },
 ];
