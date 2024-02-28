@@ -6,8 +6,18 @@ import montyHall from "../assets/projects/monty_hall.png";
 import fontesPromotora from "../assets/projects/fontes_promotora.png";
 import notGoogle from "../assets/projects/notGoogle.png";
 import admin_template from "../assets/projects/admin_template.png";
+import bike_sharing_app from "../assets/projects/bike_sharing.png";
 
 export const ProjectData = [
+  {
+    title: "Bike Sharing App",
+    about:
+      "An interactive map utilizing Leaflet to showcase geolocated data highlighting information about bike hubs worldwide",
+    tags: ["ReactJS", "TypeScript", "Leaflet", "Axios", "Jest"],
+    demo: "https://bike-sharing-app.netlify.app/",
+    github: "https://github.com/AlessandroBarreto/bike-sharing-app",
+    img: bike_sharing_app,
+  },
   {
     title: "Admin Template",
     about:

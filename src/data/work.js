@@ -1,33 +1,33 @@
 import sanova from "../assets/works/sanova.jpg";
 import aquarela from "../assets/works/aquarela.jpg";
-import fontes from "../assets/works/fontes.jpg";
+import jea from "../assets/works/j&a.png";
 import aubay from "../assets/works/aubay.jpg";
-import bmw from "../assets/works/bmw.jpg";
+import farfetch from "../assets/works/farfetch.png";
 import ufsc from "../assets/works/ufsc.png";
 
 export const WorkData = [
   {
-    company: "BMW Group",
-    designation: "Full Stack Developer",
-    started: "Dec 2021",
+    company: "Farfetch",
+    designation: "Frontend Engineer",
+    started: "Abr 2023",
     ended: "Present",
-    companyLogo: bmw,
+    companyLogo: farfetch,
     info: "",
   },
   {
-    company: "Aubay",
-    designation: "Technology Consultant",
+    company: "Aubay/BMW group",
+    designation: "Fullstack Developer",
     started: "Dec 2021",
-    ended: "Present",
+    ended: "Abr 2023",
     companyLogo: aubay,
     info: "",
   },
   {
-    company: "Fontes Credit Bank",
+    company: "J&A Holding",
     designation: "Fullstack Developer",
     started: "May 2021",
     ended: "Dec 2021",
-    companyLogo: fontes,
+    companyLogo: jea,
     info: "",
   },
   {
@@ -40,7 +40,7 @@ export const WorkData = [
   },
   {
     company: "Sanova",
-    designation: "Frontend Developer",
+    designation: "Engineer",
     started: "Mar 2018",
     ended: "Mar 2020",
     companyLogo: sanova,
